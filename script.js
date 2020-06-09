@@ -1,4 +1,4 @@
-let example1 = [1,2,3,5,6];
-let example2 = [...example1];
-example2.push(true);
-console.log(example2);
+function add(...num){
+    console.log(num);
+}
+add(1,2,3,4);
