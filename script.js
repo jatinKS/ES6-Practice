@@ -1,11 +1,7 @@
-function addressMaker(address){
-    const {city,state} = address;
-    const newAddress = {
-        city,
-        state,
-        country:"India"
-    };
-    console.log(`${newAddress.city}, ${newAddress.state}, ${newAddress.country}`);
-}
+let incomes = [100000,200000,300000];
+let total = 0;
 
-addressMaker({city:'Noda',state:'UP'});
+for(const income of incomes){
+    total += income;
+}
+console.log(total);
