@@ -6,17 +6,8 @@
 
         </div>
         <script>
-            const personInformation = {
-                firstName: 'Jatin',
-                lastName: 'Soni',
-                city: 'Delhi',
-                state: 'Delhi',
-            };
-
-            // const {firstName,lastName} = personInformation;
-            // console.log(`${firstName} ${lastName}`);
-            const {firstName:fn,lastName:ln} = personInformation;
-            console.log(`${fn} ${ln}`);
+            let [firstName,middleName,lastName] = ['Jatin','Soni','Delhi'];
+            console.log(firstName+" "+middleName+" "+lastName);
         </script>
     </body>
 </html>
