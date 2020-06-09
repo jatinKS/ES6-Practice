@@ -6,19 +6,17 @@
 
         </div>
         <script>
-            let word1 = "jaitn";
-            let word2 = "soni";
-            let num1 = 1;
-            let num2 = 2;
-            const fullName = `${word1} ${word2} the number is ${num1+num2}`;
-            console.log(fullName);
+            const personInformation = {
+                firstName: 'Jatin',
+                lastName: 'Soni',
+                city: 'Delhi',
+                state: 'Delhi',
+            };
 
-            let example = `${word1}
-            ${word2}
-            `;
-            document.getElementById('example').innerText = example;
-
-
+            // const {firstName,lastName} = personInformation;
+            // console.log(`${firstName} ${lastName}`);
+            const {firstName:fn,lastName:ln} = personInformation;
+            console.log(`${fn} ${ln}`);
         </script>
     </body>
 </html>
