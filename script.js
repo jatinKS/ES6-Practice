@@ -1,8 +1,2 @@
-function add(numArray = []){
-    let total = 0;
-    numArray.forEach((element)=>{
-        total += element;
-    });
-    console.log(total);
-}
-add();
+let numArray = [1,2,4,5];
+console.log(numArray.includes(3)); //return false
