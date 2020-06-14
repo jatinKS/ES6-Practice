@@ -1,7 +1,18 @@
-function add(...num){
+/* function add(...num){
     let total = num.reduce(function(x,y){
         return x+y;
     });
     console.log(total);
+} */
+function add(...num){
+    let total = num.reduce((x,y)=>{
+        return x+y;
+    });
+    console.log(total);
 }
-add(1,2,3,4);
+
+
+
+
+
+add(1,2,4);
