@@ -1,2 +1,12 @@
-let numArray = [1,2,4,5];
-console.log(numArray.includes(3)); //return false
+if(false){
+    var example = "hello";
+}
+console.log(example);
+/*
+    Hoisting:
+    -------------------------------
+    var example;
+    if(false){
+        example = "hello";
+    }
+*/
