@@ -1,12 +1,8 @@
-/* function add(...num){
-    let total = num.reduce(function(x,y){
-        return x+y;
+function add(numArray = []){
+    let total = 0;
+    numArray.forEach((element)=>{
+        total += element;
     });
     console.log(total);
-} */
-function add(...num){
-    let total = num.reduce((x,y)=> x+y);
-    console.log(total);
 }
-
-add(1,2,4);
+add();
